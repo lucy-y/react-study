@@ -1,15 +1,22 @@
 import React, {Component} from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-import Ex0 from './component/Ex0';
-import Ex1 from './component/Ex1';
-import Ex2 from './component/Ex2';
+import Headers from './component/Header';
+import Side from './component/Side';
+import Content from './component/Content';
+
+import './common/Custom.css';
 
 function App() {
   return (
     <div>
-      <Ex0 />
-      <Ex1 />
-      <Ex2 />
+      <Headers/>
+      <div className="flex">
+        <BrowserRouter>
+          <Side />
+          <Content />
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

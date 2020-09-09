@@ -14,6 +14,10 @@ body {
     background-color: chocolate;
 }
 
-.contents {
+.content {
     margin: 1%;
+}
+
+.flex {
+    display: flex;
 }
