@@ -1,0 +1,19 @@
+body {
+    margin : 0%;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: burlywood;
+}
+
+.side {
+    width: 20%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+.contents {
+    margin: 1%;
+}
